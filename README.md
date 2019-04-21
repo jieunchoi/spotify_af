@@ -4,6 +4,6 @@ A standard metric of a song's popularity in the U.S. is its appearance (or not) 
 
 ![alt text](https://github.com/jieunchoi/billboard100_hit_or_not/blob/master/img/energy_danceability.png)
 
-Objective: predict whether or not a song appeared on the Hot 100 between 2010-2018 using the [Spotify audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/). This data set---e.g., danceability, energy, acousticness, and tempo---are downloaded using [Spotipy](https://spotipy.readthedocs.io/en/latest/), a Python library for accessing and interacting with the Spotify API. We examine factors determining a song's popularity, train our binary classifier using the 2010-2018 data, and finally, for fun, try to predict the Hot 100 status for songs released in 2019.
+Objective: Examine the characteristics of popular songs released between 2010-2018 using the [Spotify audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/). The data---e.g., danceability, energy, acousticness, and tempo---are obtained using [Spotipy](https://spotipy.readthedocs.io/en/latest/), a Python library for accessing and interacting with the Spotify API. Try to classify a song as a Hot 100 hit (*ongoing part of the project*).
 
 The project notebook can be viewed online [here](https://nbviewer.jupyter.org/github/jieunchoi/billboard100_hit_or_not/blob/master/hitornot.ipynb) at https://nbviewer.jupyter.org/.
